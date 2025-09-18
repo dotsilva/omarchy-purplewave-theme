@@ -10,3 +10,61 @@
 @define-color border #d7accd;
 @define-color foreground #d7accd;
 @define-color background #121212;
+
+#window {
+  border-radius: 4px;
+}
+
+#window > #box,
+#box {
+  border-radius: 4px;
+}
+
+#search,
+.search,
+#tray #search,
+#tray .search {
+  border-radius: 4px;
+}
+
+#bar,
+.bar {
+  border-radius: 4px;
+ }
+
+#scroll,
+.scroll {
+  border-radius: 4px;
+}
+
+#list,
+.list {
+  border-radius: 4px;
+}
+
+#item,
+.item {
+  border-radius: 4px;
+}
+
+#item:hover,
+.item:hover {
+  border-radius: 4px;
+}
+
+#item:selected,
+.item:selected,
+#item:focus,
+.item:focus,
+#item:checked,
+.item:checked {
+  border-radius: 4px;
+}
+
+scrollbar slider {
+  border-radius: 4px;
+}
+
+scrollbar trough {
+  border-radius: 4px;
+}
