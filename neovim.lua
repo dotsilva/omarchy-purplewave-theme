@@ -4,14 +4,12 @@
 -- ────────────────────────────────────────────────────────────
 
 return {
-    {
-        "bjarneo/pixel.nvim",
-        name = "pixel",
-    },
-    {
-        "LazyVim/LazyVim",
-        opts = {
-            colorscheme = "pixel",
-        },
-    },
+	"EdenEast/nightfox.nvim",
+	opts = {
+		options = {
+			transparent = false, -- Define se o fundo será transparente
+			terminal_colors = true, -- Habilita cores no terminal
+		},
+	},
 }
+
