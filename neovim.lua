@@ -1,11 +1,11 @@
 return {
   {
-    "EdenEast/nightfox.nvim",
-    lazy = false, -- Carrega o tema na inicialização
-    priority = 1000, -- Garante que seja carregado antes de outros plugins
+    "Rigellute/shades-of-purple.vim",
+    name = "shades-of-purple",
+    enabled = false,
+    priority = 1000,
     config = function()
-      -- Define a variante "duskfox" como seu tema
-      vim.cmd.colorscheme "duskfox"
+      vim.cmd("colorscheme shades-of-purple")
     end,
   },
 }
