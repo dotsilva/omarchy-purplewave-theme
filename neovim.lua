@@ -8,7 +8,7 @@ return {
 		-- Sua configuração customizada entra aqui
 		palettes = {
 			duskfox = {
-				bg1 = "#121212", -- Fundo principal preto
+				bg1 = "#FFFFFF", -- Fundo principal preto
 				bg0 = "#1d1d2b", -- Fundo alternativo (janelas flutuantes, statusline, etc.)
 				bg3 = "#1d1d2b",
 				sel0 = "#1d1d2b",
