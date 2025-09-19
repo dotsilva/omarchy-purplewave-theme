@@ -1,13 +1,12 @@
 return {
-  {
-    "rose-pine/neovim",
-    name = "rose-pine",
-    priority = 1000,
-  },
+  -- Add the theme plugin
+  { "vyrx-dev/void.nvim" },
+
+  -- Configure LazyVim to use the theme
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "rose-pine-moon",
+      colorscheme = "void",
     },
   },
 }
