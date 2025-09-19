@@ -1,29 +1,28 @@
 return {
-  -- Instala e configura o Catppuccin
+  -- Configuração do Tema Catppuccin
   {
     "catppuccin/nvim",
+    lazy = false,
     name = "catppuccin",
-    lazy = false,       -- Carrega o tema imediatamente
-    priority = 1000,    -- Garante que ele carregue antes de outros plugins
+    priority = 1000,
     opts = {
-      flavour = "mocha", -- Define a variante Mocha
-      integrations = {
-        alpha = true,    -- ESTA LINHA ATIVA A INTEGRAÇÃO com a tela de início
-        -- Outras integrações recomendadas:
-        gitsigns = true,
-        telescope = true,
-        treesitter = true,
-        mason = true,
-        which_key = true,
-      },
+      flavour = "mocha",
     },
   },
-
-  -- Diz ao LazyVim para usar o Catppuccin como tema padrão
   {
     "LazyVim/LazyVim",
     opts = {
       colorscheme = "catppuccin",
     },
+  },
+
+  -- Configuração para customizar o dashboard
+  {
+    "goolord/alpha-nvim",
+    opts = function(_, opts)
+      -- Altera a cor do cabeçalho
+      opts.config.header.opts.hl = "Function"
+      return opts
+    end,
   },
 }
