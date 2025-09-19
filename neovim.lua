@@ -1,14 +1,14 @@
--- ~/.config/nvim/lua/plugins/shades_of_purple.lua
+-- Arquivo de teste temporário com o tema 'gruvbox'
 return {
   {
-    "Rigellute/shades-of-purple.vim",
-    priority = 1000, -- Adicione esta linha para forçar o carregamento prioritário
+    "morhetz/gruvbox",
+    priority = 1000,
+    name = "gruvbox", -- Opcional, mas boa prática
   },
-
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "shades-of-purple",
+      colorscheme = "gruvbox",
     },
   },
 }
