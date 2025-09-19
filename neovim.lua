@@ -1,22 +1,13 @@
 return {
   {
-    "Mofiqul/dracula.nvim",
+    "rose-pine/neovim",
+    name = "rose-pine",
     priority = 1000,
-    opts = {
-      -- Sobrescrevendo apenas o fundo (bg) e o texto principal (fg)
-      overrides = {
-        bg = "#121212",
-        fg = "#d7accd",
-      },
-
-      -- Mantendo a opção de comentários em itálico
-      italic_comments = true,
-    },
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "dracula",
+      colorscheme = "rose-pine-moon",
     },
   },
 }
