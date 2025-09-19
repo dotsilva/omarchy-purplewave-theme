@@ -1,13 +1,13 @@
 return {
   {
-    "catppuccin/nvim",
-    name = "catppuccin",
+    "doums/darcula.nvim",
+    name = "darcula",
     priority = 1000,
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin-mocha",
+      colorscheme = "darcula",
     },
   },
 }
