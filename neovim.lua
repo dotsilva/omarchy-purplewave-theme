@@ -1,14 +1,13 @@
--- Arquivo de teste temporário com o tema 'gruvbox'
+-- ~/.config/nvim/lua/plugins/colorscheme.lua
 return {
   {
-    "morhetz/gruvbox",
+    "Mofiqul/dracula.nvim",
     priority = 1000,
-    name = "gruvbox", -- Opcional, mas boa prática
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "dracula",
     },
   },
 }
