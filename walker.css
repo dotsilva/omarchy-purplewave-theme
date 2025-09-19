@@ -12,44 +12,44 @@
 @define-color background #121212;
 
 #window {
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 #window > #box,
 #box {
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 #search,
 .search,
 #tray #search,
 #tray .search {
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 #bar,
 .bar {
-  border-radius: 4px;
+  border-radius: 8px;
  }
 
 #scroll,
 .scroll {
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 #list,
 .list {
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 #item,
 .item {
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 #item:hover,
 .item:hover {
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 #item:selected,
@@ -58,13 +58,13 @@
 .item:focus,
 #item:checked,
 .item:checked {
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 scrollbar slider {
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 scrollbar trough {
-  border-radius: 4px;
+  border-radius: 8px;
 }
