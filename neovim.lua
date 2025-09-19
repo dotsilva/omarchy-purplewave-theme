@@ -1,13 +1,13 @@
--- ~/.config/nvim/lua/plugins/shades_of_purple.lua
+-- ~/.config/nvim/lua/plugins/shades_of-purple.lua
 return {
+  -- 1. Apenas declare o plugin, exatamente como no exemplo do 'ashen'
+  { "Rigellute/shades-of-purple.vim" },
+
+  -- 2. Diga ao LazyVim para usá-lo
   {
-    "Rigellute/shades-of-purple.vim",
-    lazy = false,      -- Essencial: carregar no início
-    priority = 1000,   -- Essencial: garantir que carregue antes de outros plugins de UI
-    config = function()
-      -- Este código só roda DEPOIS que o plugin foi carregado.
-      -- É o local seguro para definir o colorscheme.
-      vim.cmd("colorscheme shades-of-purple")
-    end,
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "shades-of-purple",
+    },
   },
 }
