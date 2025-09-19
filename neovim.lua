@@ -1,12 +1,13 @@
 return {
-  -- Add the theme plugin
-  { "vyrx-dev/void.nvim" },
-
-  -- Configure LazyVim to use the theme
+  {
+    "catppuccin/nvim",
+    name = "catppuccin",
+    priority = 1000,
+  },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "void",
+      colorscheme = "catppuccin-mocha",
     },
   },
 }
