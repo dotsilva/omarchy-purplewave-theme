@@ -13,8 +13,8 @@ return {
         bg = "#121212",
         fg = "#d7accd",
         white = "#ff9acb",
-        gray = "#9e9e9e",
-        purple = "#8673d4", -- <<< SEU NOVO ROXO APLICADO AQUI
+        -- A cor 'gray'/'comment' foi removida e usará o padrão do tema.
+        purple = "#8673d4",
         pink = "#ca2edc",
         cyan = "#7ea7c9",
         green = "#8adb8a",
