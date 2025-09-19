@@ -1,13 +1,14 @@
--- ~/.config/nvim/lua/plugins/shades_of-purple.lua
+-- ~/.config/nvim/lua/plugins/shades_of_purple.lua
 return {
-	-- 1. Apenas declare o plugin, exatamente como no exemplo do 'ashen'
-	{ "Rigellute/shades-of-purple.vim" },
+  {
+    "Rigellute/shades-of-purple.vim",
+    priority = 1000, -- Adicione esta linha para forçar o carregamento prioritário
+  },
 
-	-- 2. Diga ao LazyVim para usá-lo
-	{
-		"LazyVim/LazyVim",
-		opts = {
-			colorscheme = "shades-of-purple",
-		},
-	},
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "shades-of-purple",
+    },
+  },
 }
