@@ -18,6 +18,7 @@
 #window > #box,
 #box {
   border-radius: 8px;
+  border: 3;
 }
 
 #search,
@@ -26,7 +27,6 @@
 #tray .search {
   border-radius: 8px;
 }
-
 
 #bar,
 .bar {
