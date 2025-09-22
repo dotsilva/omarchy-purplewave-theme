@@ -24,6 +24,9 @@
 .search,
 #tray #search,
 #tray .search {
+  background: alpha(@hover, 0.2);
+  color: @foreground;
+  border: 2px solid alpha(@border, 0.5);
   border-radius: 8px;
 }
 
