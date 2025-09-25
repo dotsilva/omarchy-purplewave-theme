@@ -5,3 +5,5 @@
 ```
 omarchy-theme-install https://github.com/dotsilva/omarchy-purplewave-theme
 ```
+# Thanks
+walker: https://github.com/abhijeet-swami/omarchy-forest-green-theme
