@@ -14,8 +14,7 @@
 @define-color accent #d7accd;
 
 #window {
-  background: transparent;
-  border-radius: 16px;
+  border-radius: 8px;
 }
 
 #window > #box,
@@ -23,11 +22,11 @@
   background: alpha(@background, 0.85);
   color: @text;
   border: 2px solid @border;
-  border-radius: 16px;
+  border-radius: 8px;
   padding: 8px;
   margin: 0px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-  -gtk-outline-radius: 16px;
+  -gtk-outline-radius: 8px;
 }
 
 #search,
@@ -37,7 +36,7 @@
   background: alpha(@hover, 0.3);
   color: @foreground;
   border: 1px solid alpha(@border, 0.5);
-  border-radius: 12px;
+  border-radius: 8px;
   padding: 8px 12px;
   margin: 4px;
   font-size: 14px;
@@ -55,15 +54,13 @@
 
 #bar,
 .bar {
-  background: transparent;
   border: none;
-  border-radius: 0;
+  border-radius: 8px;
   padding: 0;
 }
 
 #scroll,
 .scroll {
-  background: transparent;
   border: none;
   border-radius: 8px;
   padding: 4px 0;
@@ -71,17 +68,15 @@
 
 #list,
 .list {
-  background: transparent;
   border: none;
-  border-radius: 0;
+  border-radius: 8px;
 }
 
 #item,
 .item {
-  background: transparent;
   color: @text;
   border: none;
-  border-radius: 10px;
+  border-radius: 8px;
   padding: 1px 10px;
   margin: 1px 0;
   transition: all 0.2s ease;
@@ -92,7 +87,7 @@
   background: alpha(@hover, 0.4);
   color: @foreground;
   transform: translateX(4px);
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 #item:selected,
@@ -106,7 +101,7 @@
   font-weight: 600;
   transform: translateX(6px);
   box-shadow: 0 2px 6px alpha(@accent, 0.3);
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 #item:active,
@@ -153,14 +148,13 @@
 }
 
 scrollbar {
-  background: transparent;
   border: none;
   width: 6px;
 }
 
 scrollbar slider {
   background: alpha(@border, 0.6);
-  border-radius: 3px;
+  border-radius: 8px;
   border: none;
   min-height: 20px;
 }
@@ -170,6 +164,5 @@ scrollbar slider:hover {
 }
 
 scrollbar trough {
-  background: transparent;
-  border-radius: 3px;
+  border-radius: 8px;
 }
