@@ -8,5 +8,4 @@ omarchy-theme-install https://github.com/dotsilva/omarchy-purplewave-theme
 
 # Thanks
 
->i like lua, so i included a lua logo wallpaper, thanks: https://www.lua.org
->walker: https://github.com/abhijeet-swami/omarchy-forest-green-theme
+i like lua, so i included a lua logo wallpaper, thanks: https://www.lua.org; walker: https://github.com/abhijeet-swami/omarchy-forest-green-theme
