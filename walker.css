@@ -21,9 +21,7 @@
 #box {
   background: alpha(@background);
   color: @text;
-  border: 2px solid @border;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0);
 }
 
 #search,
@@ -32,7 +30,6 @@
 #tray .search {
   background: alpha(@hover);
   color: @foreground;
-  border: 1px solid alpha(@border);
   border-radius: 8px;
 }
 
@@ -41,7 +38,6 @@
 #tray #search:focus,
 #tray .search:focus {
   border-color: @border;
-  box-shadow: 0 0 0 2px alpha(@border);
 }
 
 #bar,
@@ -62,11 +58,7 @@
 #item,
 .item {
   color: @text;
-  border: none;
   border-radius: 8px;
-  padding: 1px 10px;
-  margin: 1px 0;
-  transition: all 0.2s ease;
 }
 
 #item:hover,
@@ -86,7 +78,6 @@
   background: @accent;
   color: @selected-text;
   transform: translateX(6px);
-  box-shadow: 0 2px 6px alpha(@accent);
   border-radius: 8px;
 }
 
