@@ -65,7 +65,6 @@
 .item:hover {
   background: alpha(@hover);
   color: @foreground;
-  transform: translateX(4px);
   border-radius: 8px;
 }
 
@@ -77,7 +76,6 @@
 .item:checked {
   background: @accent;
   color: @selected-text;
-  transform: translateX(6px);
   border-radius: 8px;
 }
 
@@ -85,7 +83,6 @@
 .item:active {
   background: @border;
   color: @background;
-  transform: scale(0.98);
 }
 
 #item .title {
