@@ -10,8 +10,6 @@
 @define-color border #d7accd;
 @define-color foreground #d7accd;
 @define-color background #121212;
-@define-color hover #8673d4;
-@define-color accent #d7accd;
 
 #window {
   border-radius: 8px;
@@ -19,8 +17,6 @@
 
 #window > #box,
 #box {
-  background: alpha(@background);
-  color: @text;
   border-radius: 8px;
 }
 
@@ -28,16 +24,7 @@
 .search,
 #tray #search,
 #tray .search {
-  background: alpha(@hover);
-  color: @foreground;
   border-radius: 8px;
-}
-
-#search:focus,
-.search:focus,
-#tray #search:focus,
-#tray .search:focus {
-  border-color: @border;
 }
 
 #bar,
@@ -57,14 +44,11 @@
 
 #item,
 .item {
-  color: @text;
   border-radius: 8px;
 }
 
 #item:hover,
 .item:hover {
-  background: alpha(@hover);
-  color: @foreground;
   border-radius: 8px;
 }
 
@@ -74,50 +58,11 @@
 .item:focus,
 #item:checked,
 .item:checked {
-  background: @accent;
-  color: @selected-text;
   border-radius: 8px;
-}
-
-#item:active,
-.item:active {
-  background: @border;
-  color: @background;
-}
-
-#item .title {
-  color: @foreground;
-}
-
-#item:selected .title,
-.item:selected .title,
-#item:focus .title,
-.item:focus .title,
-#item:checked .title,
-.item:checked .title {
-  color: @selected-text;
-}
-
-#item .subtitle {
-  color: alpha(@text);
-}
-
-#item:selected .subtitle,
-.item:selected .subtitle,
-#item:focus .subtitle,
-.item:focus .subtitle,
-#item:checked .subtitle,
-.item:checked .subtitle {
-  color: alpha(@selected-text);
 }
 
 scrollbar slider {
-  background: alpha(@border);
   border-radius: 8px;
-}
-
-scrollbar slider:hover {
-  background: @border;
 }
 
 scrollbar trough {
