@@ -37,6 +37,7 @@
 .search:focus,
 #tray #search:focus,
 #tray .search:focus {
+  color: @accent
   border-color: @border;
 }
 
