@@ -19,28 +19,21 @@
 
 #window > #box,
 #box {
-  background: alpha(@background, 0.85);
+  background: alpha(@background);
   color: @text;
   border: 2px solid @border;
   border-radius: 8px;
-  padding: 8px;
-  margin: 0px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-  -gtk-outline-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0);
 }
 
 #search,
 .search,
 #tray #search,
 #tray .search {
-  background: alpha(@hover, 0.3);
+  background: alpha(@hover);
   color: @foreground;
-  border: 1px solid alpha(@border, 0.5);
+  border: 1px solid alpha(@border);
   border-radius: 8px;
-  padding: 8px 12px;
-  margin: 4px;
-  font-size: 14px;
-  font-weight: 500;
 }
 
 #search:focus,
@@ -48,27 +41,21 @@
 #tray #search:focus,
 #tray .search:focus {
   border-color: @border;
-  box-shadow: 0 0 0 2px alpha(@border, 0.3);
-  outline: none;
+  box-shadow: 0 0 0 2px alpha(@border);
 }
 
 #bar,
 .bar {
-  border: none;
   border-radius: 8px;
-  padding: 0;
 }
 
 #scroll,
 .scroll {
-  border: none;
   border-radius: 8px;
-  padding: 4px 0;
 }
 
 #list,
 .list {
-  border: none;
   border-radius: 8px;
 }
 
@@ -84,7 +71,7 @@
 
 #item:hover,
 .item:hover {
-  background: alpha(@hover, 0.4);
+  background: alpha(@hover);
   color: @foreground;
   transform: translateX(4px);
   border-radius: 8px;
@@ -98,9 +85,8 @@
 .item:checked {
   background: @accent;
   color: @selected-text;
-  font-weight: 600;
   transform: translateX(6px);
-  box-shadow: 0 2px 6px alpha(@accent, 0.3);
+  box-shadow: 0 2px 6px alpha(@accent);
   border-radius: 8px;
 }
 
@@ -113,8 +99,6 @@
 
 #item .title {
   color: @foreground;
-  font-weight: 500;
-  font-size: 13px;
 }
 
 #item:selected .title,
@@ -124,13 +108,10 @@
 #item:checked .title,
 .item:checked .title {
   color: @selected-text;
-  font-weight: 600;
 }
 
 #item .subtitle {
-  color: alpha(@text, 0.7);
-  font-size: 11px;
-  font-weight: normal;
+  color: alpha(@text);
 }
 
 #item:selected .subtitle,
@@ -139,24 +120,12 @@
 .item:focus .subtitle,
 #item:checked .subtitle,
 .item:checked .subtitle {
-  color: alpha(@selected-text, 0.8);
-}
-
-#item .icon {
-  margin-right: 12px;
-  -gtk-icon-size: 20px;
-}
-
-scrollbar {
-  border: none;
-  width: 6px;
+  color: alpha(@selected-text);
 }
 
 scrollbar slider {
-  background: alpha(@border, 0.6);
+  background: alpha(@border);
   border-radius: 8px;
-  border: none;
-  min-height: 20px;
 }
 
 scrollbar slider:hover {
