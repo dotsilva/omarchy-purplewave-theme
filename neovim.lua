@@ -3,7 +3,7 @@ return {
 	"EdenEast/nightfox.nvim",
 	lazy = false,
 	priority = 1000,
-	name = "nightfox",
+	name = "duskfox",
 
 	-- A função init é o local ideal para definir o tema,
 	-- pois é executada antes do plugin carregar, aplicando o tema o mais cedo possível.
