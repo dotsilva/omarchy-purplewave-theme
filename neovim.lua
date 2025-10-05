@@ -7,7 +7,7 @@ return {
 	init = function()
 		-- Define o colorscheme para a variante "duskfox"
 		-- O setup é opcional se você não for alterar as configurações padrão [cite: 640]
-		vim.cmd.colorscheme("duskfox")
+		vim.cmd("colorscheme duskfox")
 	end,
 	opts = {
 		-- Exemplo de opção: habilitar fundo transparente
