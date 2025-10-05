@@ -1,8 +1,4 @@
 return {
-	-- Bloco 1: Desabilita completamente o tema padrão do LazyVim.
-	-- A chave para resolver o problema está aqui.
-	{ "folke/tokyonight.nvim", enabled = false },
-
 	-- Bloco 2: Configura e carrega o seu tema, que agora não terá mais competição.
 	{
 		"EdenEast/nightfox.nvim",
