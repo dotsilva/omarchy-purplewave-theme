@@ -1,22 +1,12 @@
 return {
-  -- Bloco 1: Garante que as opções globais do Neovim estão corretas
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      options = {
-        termguicolors = true,
-      },
-    },
-  },
+	-- Instala o plugin do tema Dracula
+	{ "Mofiqul/dracula.nvim", name = "dracula", lazy = false, priority = 1000 },
 
-  -- Bloco 2: Configura e carrega o plugin do tema
-  {
-    "EdenEast/nightfox.nvim",
-    lazy = false,
-    priority = 1000,
-    config = function()
-      vim.g.nightfox_style = "duskfox"
-      vim.cmd.colorscheme("duskfox")
-    end,
-  },
+	-- Configura o LazyVim para usar a variante 'dracula-soft'
+	{
+		"LazyVim/LazyVim",
+		opts = {
+			colorscheme = "dracula-soft",
+		},
+	},
 }
