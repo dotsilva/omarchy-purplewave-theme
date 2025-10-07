@@ -1,38 +1,76 @@
-# ────────────────────────────────────────────────────────────
-# Omarchy Custom Theme for Alacritty
-# Generated with Omarchist
-# ────────────────────────────────────────────────────────────
+# Dracula theme for Alacritty
+# https://draculatheme.com/alacritty
+#
+# Color palette
+# https://spec.draculatheme.com
+#
+# Instructions
+# https://github.com/alacritty/alacritty/blob/master/extra/man/alacritty.5.scd
 
-[colors]
 [colors.primary]
-background = "#121212"
-foreground = "#d7accd"
-dim_foreground = "#b683c3"
+
+background = "#282a36"
+foreground = "#f8f8f2"
+bright_foreground = "#ffffff"
 
 [colors.cursor]
-text = "#121212"
-cursor = "#d7accd"
+
+text = "#282a36"
+cursor = "#f8f8f2"
+
+[colors.vi_mode_cursor]
+
+text = "CellBackground"
+cursor = "CellForeground"
 
 [colors.selection]
-text = "#121212"
-background = "#d7accd"
+
+text = "CellForeground"
+background = "#44475a"
 
 [colors.normal]
-black = "#ff9acb"
-red = "#ff4da6"
-green = "#8673d4"
-yellow = "#ca2edc"
-blue = "#7ea7c9"
-magenta = "#b683c3"
-cyan = "#8adb8a"
-white = "#dfdfdf"
+
+black = "#21222c"
+red = "#ff5555"
+green = "#50fa7b"
+yellow = "#f1fa8c"
+blue = "#bd93f9"
+magenta = "#ff79c6"
+cyan = "#8be9fd"
+white = "#f8f8f2"
 
 [colors.bright]
-black = "#ff9acb"
-red = "#ff4da6"
-green = "#8673d4"
-yellow = "#ca2edc"
-blue = "#7ea7c9"
-magenta = "#b683c3"
-cyan = "#8adb8a"
-white = "#dfdfdf"
+
+black = "#6272a4"
+red = "#ff6e6e"
+green = "#69ff94"
+yellow = "#ffffa5"
+blue = "#d6acff"
+magenta = "#ff92df"
+cyan = "#a4ffff"
+white = "#ffffff"
+
+[colors.search.matches]
+
+foreground = "#44475a"
+background = "#50fa7b"
+
+[colors.search.focused_match]
+
+foreground = "#44475a"
+background = "#ffb86c"
+
+[colors.footer_bar]
+
+background = "#282a36"
+foreground = "#f8f8f2"
+
+[colors.hints.start]
+
+foreground = "#282a36"
+background = "#f1fa8c"
+
+[colors.hints.end]
+
+foreground = "#f1fa8c"
+background = "#282a36"
