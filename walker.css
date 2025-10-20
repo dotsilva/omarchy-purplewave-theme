@@ -10,3 +10,28 @@
 @define-color border #d7accd;
 @define-color foreground #d7accd;
 @define-color background #121212;
+
+window {
+  /* keep default size, no background needed here */
+}
+
+window .box-wrapper {
+  background: @background; /* solid background */
+  color: @text;
+  border: 3px solid @border;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 0 auto; /* center content if needed */
+}
+
+window .search-container,
+window .search {
+  background: @hover; /* solid background for search */
+  color: @foreground;
+  border: 3px solid @border;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin: 4px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
